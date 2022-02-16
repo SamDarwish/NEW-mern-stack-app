@@ -1,5 +1,11 @@
-# will hold sensitive credentials for things like the MongoDB database
+# environment variables for the React front-end 
+# you must manually restart the react app to reload any modifications to this file
 
-PORT=5000 # express server will use whatever port you specify here
-FRONT_END_URI=localhost:7000
-DB_CONNECTION_STRING=mongodb+srv://verse:pass@cluster0.yqgx6.mongodb.net/test
+# react server will use whatever port you specify here
+PORT=4000 
+
+# any other variables must be prefixed with REACT_APP_
+# access any variable from within React code as process.env.REACT_APP_VARNAME, where VARNAME is replaced with the appropriate variable name
+
+# REACT_APP_SERVER_HOSTNAME=https://my.api.mockaroo.com/messages.json?key=d9ddfc40
+REACT_APP_SERVER_HOSTNAME=http://localhost:3000
