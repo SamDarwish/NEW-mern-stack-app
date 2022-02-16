@@ -15,7 +15,7 @@ const App = props => {
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/messages" element={<Messages />}></Route>
-            <Route path="/about" element={<Messages />}></Route>
+            <Route path="/about" element={<About />}></Route>
           </Routes>
         </main>
         <Footer />
