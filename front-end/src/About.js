@@ -28,11 +28,14 @@ const About = props => {
           Here's a second paragraph, just to show off that I can do that. This is the final class for my CS minor, and so far I really enjoy
           the quick pace and the effective introduction to each language that we learn. I'm in a few classes focusing on the development of 
           audio processing software, and I'm glad I get to round my skills out in a class structured close to a real working environment.
+          
     </p>
+    <br></br>
+    <h1>Thanks!</h1>
 
       <br></br>
       <div>
-             <img src={greg} alt="Here's the only shot of me that I have on my computer,':" width="300"/>
+             <img src={greg} alt="Here's the only shot of me that I have on my computer':" width="300"/>
         </div>
     </>
   )
